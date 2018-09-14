@@ -1,0 +1,33 @@
+body {
+    font: 0.75em Arial;
+}
+
+a {
+    color: slategrey;
+}
+
+.button {
+    background: #ccc;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    border-bottom: 2px solid #aaa;
+}
+
+.cookie-banner {
+    display: none;
+    background: #333;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.cookie-banner .container {
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    padding: 15px;
+}

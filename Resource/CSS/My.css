@@ -1,0 +1,54 @@
+/*Tags HTML*/
+body {
+    background-color:gainsboro;
+    background-image: URL("../Immagini/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1 {color: white;text-align: center;}
+p {text-align: center;font-family: verdana;font-size: 20px;}
+nav {background: #000; height: 52px; width: 100%; position: fixed; top:0; left:0}
+nal ul{list-style:none; margin: 0 auto; padding: 0; width:100%; max-width: 1200px}
+nal ul ul{display: none; position: absolute; top: 100%; left: 0; width: 100%}
+nal ul li{position: relative; float: left; width:20%; text-align: center}
+
+a:link {color:#3caec7;background-color: transparent;text-decoration: none;}
+/*a:visited {color:#54b3a7;background-color: transparent;text-decoration: none;}*/
+a:hover {background-color: transparent;text-decoration: none;}
+/*a:active {color: yellow;background-color: transparent;text-decoration: none;}*/
+/** {margin:0; padding:0} - L'asterisco indica tutti gli elementi del html'*/
+
+/*Class*/
+.mySlides{display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px; padding:0}
+.CenterInPage {margin-left: auto; margin-right: auto}
+.margin-Top-0{margin-top:0px}
+.button-blue:hover{color:#000!important;background-color:#2196F3!important}
+.btn-blue,.button-blue{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:#2196F3;text-align:center;cursor:pointer;white-space:nowrap}
+
+
+/*Eventi Mouse*/
+.hover-text-blue-bold-shadow-black:hover{color:#2196F3!important;text-shadow:2px 1px 0 #444;font-weight: bold}
+.dropdown-click,.dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.dropdown-hover:hover .dropdown-content{display:block;z-index:1}
+.dropdown-hover:first-child,.dropdown-click:hover{background-color:#ccc;color:#000}
+.dropdown-hover:hover > .button:first-child,.dropdown-click:hover > .button:first-child{background-color:#2196f3;color:#000}
+
+/*Button carrosello*/
+.Btn-Carosello-Padding{padding:60px 16px}
+
+/*Informazione addizionale*/
+div.gallery img {border: 1px solid #ccc;}
+div.gallery img:hover {border: 1px solid #777;}
+div.gallery img {width: 100%; height: auto;}
+div.desc {padding: 15px;text-align: center;}
+* {box-sizing: border-box;}
+.responsive {padding: 0.9%;float: left;width: 25%;}
+@media only screen and (max-width: 700px){
+    .responsive {width: 49.99999%;margin: 6px 0;}
+}
+@media only screen and (max-width: 500px){
+    .responsive {width: 100%;}
+}
+.clearfix:after {content: "";display: table;clear: both;}

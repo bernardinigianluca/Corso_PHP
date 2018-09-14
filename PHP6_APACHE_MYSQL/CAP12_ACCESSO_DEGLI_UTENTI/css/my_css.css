@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../imagine/Sommer_06.jpg"); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-color:#ccc;
+    font-family: Verdana;
+}
+
+.my-container{padding:0.01em 16px}
+
+.my-btn{
+    border:none;
+    display:inline-block;
+    outline:0;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:#009688;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+.my-btn:hover{color:#000!important;background-color:#ccc!important}
+
+.my-teal-color,.my-hover-teal:hover{
+    color:#fff!important;
+    background-color:#009688!important
+}
+.my-display-topright{
+    position:absolute;
+    right:0;
+    top:0
+}
+
+.my-modal{
+    z-index:3;
+    display:none;
+    padding-top:100px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgb(0,0,0);
+    background-color:rgba(0,0,0,0.4);
+}
+
+.my-modal-content{
+    margin:auto;
+    background-color:#fff;
+    position:relative;
+    padding:0;
+    outline:0;
+    width:400px;
+    /*height:218px;*/
+}
+
+.my-header{
+    width:95%; 
+    background-color:blueviolet;
+    color:white;
+    text-decoration:none;
+    font-size:32px;
+    font-weight: bold;
+    padding: 10px 18px;
+    text-align: center;
+    font-family: "Verdana";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-menu {
+    width: 95%;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blueviolet, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blueviolet, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blueviolet, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blueviolet, black); /* Standard syntax (must be last) */
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#grad1 {
+    height: 200px;
+    background: black;  For browsers that do not support gradients 
+    background: -webkit-linear-gradient(red, yellow);  For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(red, yellow);  For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(red, yellow);  For Firefox 3.6 to 15 
+    background: linear-gradient(red, yellow);  Standard syntax (must be last) 
+}*/
+
+.my-button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}
+
+.my-button:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
+.my-circle{border-radius:7px;}
+.my-conteiner{
+    border: 1px white solid; 
+    width: 40%; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px;
+    /*padding-top: 0px;*/ 
+    /*margin-top:20px;*/ 
+    background-color: #2196F7;
+    border-radius: 5px;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+    font-size:12px;
+}
+.my-shadow{
+    box-shadow: 1px 1px 5px #000;
+}
+
+ul {
+    padding-left: 16px;
+}
+
+footer{
+/*    height: 100%;*/
+    height: auto;
+    width: inherit;
+    text-align: center;
+    display:inline-block;
+    padding-bottom: 16px!important;
+    padding-top: 16px!important;
+    vertical-align:baseline!Important;
+    font-size:12px;
+}
+
+input[type=text], select, input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=button] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+/*    margin: 8px 0;*/
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+    background-color: #45a049;
+    box-shadow: 1px 1px 5px #000;
+}
+
+label{
+    color:black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h1,h2,.btn-center{text-align: center;}
+h1{padding-bottom:8px;}
+
+h5{padding-top:8px;}
+
+div#verticale {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    top:0; left:0; bottom:0; right:0;
+}
+
+div#buttons {
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+
+.my-alg-center-ori{
+    text-align:center;
+}
+.my-alg-left{
+    text-align: left!important;
+}
+
+.my-pad-16{
+    padding: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+}
+
+#li-inf-per{
+    float: none!important;
+}
+
+#ul-inf-per {
+    list-style-type: disc!important;
+    padding-left: 36px!important;
+}
+
+li a, li span{
+    font-family: Verdana;
+    font-size: 12px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+
+.my-button-home{
+    font-family: Verdana;
+    font-size: 12px;
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    padding: 0px 6px;
+    text-decoration: none
+}
+
+
